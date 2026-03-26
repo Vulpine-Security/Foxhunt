@@ -100,7 +100,7 @@ Summary: Automated stats and Obsidian-linked notes.
 
 
 
-## Installation
+# Installation
 Bash
 # Clone the repository
 `git clone https://github.com/mf-pro-repo/BugBounty-Writeups.git`
@@ -108,7 +108,7 @@ Bash
 
 
 
-# Run FoxHunt
+## Run FoxHunt
 
 First, run:
 
