@@ -4,6 +4,8 @@ The Interactive Orchestration Layer for Modern Bug Bounty Recon.
 
 FoxHunt is a sophisticated Bash-based reconnaissance framework designed to bridge the gap between manual one-liners and heavy, inflexible automation suites. It provides a custom interactive shell environment to manage programs, targets, and scope with persistent state.
 
+
+
 ## Core Features
 Custom Interactive Shell: A dedicated CLI environment with context-aware prompts (Program/Target tracking).
 
@@ -20,11 +22,15 @@ Modular Design: Easily toggle "Quick Mode" or "Exploit Mode" depending on your e
 ## Config Options
 Foxhunt includes many configurable options, allowing you to customize your methodology per-program or overall.
 
-foxhunt's global config is located at `~/.recon_config`
-session file is at `"~/.foxhunt_session"`
-program config file is at `~/Projects/Bounties/[program]`
+foxhunt's global config is located at `~/.recon_config`    
+
+session file is at `"~/.foxhunt_session"`  
+
+program config file is at `~/Projects/Bounties/[program]`  
 
 Directories are all configurable in foxhunt.sh
+
+
 
 ## Commands
 
@@ -73,6 +79,8 @@ No-program mode:
   Output goes to: ~/Projects/Bounties/no-program/<target>
 
 
+
+
 ## The Pipeline
 FoxHunt orchestrates industry-standard tools into a unified stream:
 
@@ -88,11 +96,15 @@ Vulnerability Probing: nuclei, corsy, dalfox.
 
 Summary: Automated stats and Obsidian-linked notes.
 
+
+
 ## Installation
 Bash
 # Clone the repository
 `git clone https://github.com/mf-pro-repo/BugBounty-Writeups.git`
 `cd BugBounty-Writeups`
+
+
 
 # Run FoxHunt
 
