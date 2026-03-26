@@ -144,57 +144,57 @@ automated scanning (nmap, nuclei)
 ## Dependancies:
 
 **Enumeration**
-subfinder  
-amass  
-assetfinder  
-github-subdomains  ***REQUIRES API KEY SET IN GLOBAL CONFIG***
+  subfinder  
+  amass  
+  assetfinder  
+  github-subdomains  ***REQUIRES API KEY SET IN GLOBAL CONFIG***
 
 **DNS**
-puredns  
-massdns  
-dnsx  
-dig  
+  puredns    
+  massdns  
+  dnsx  
+  dig  
 
 **Network Mapping**
-asnmap  ***REQUIRES API KEY SET IN GLOBAL CONFIG AND INITIALIZED VIA CLIE***
-nmap  
+  asnmap  ***REQUIRES API KEY SET IN GLOBAL CONFIG AND INITIALIZED VIA CLIE***
+  nmap  
 
 **Passive Intel**
-Shodan - ***REQUIRES API KEY SET IN GLOBAL CONFIG AND INITIALIZED VIA CLI.***
+  Shodan - ***REQUIRES API KEY SET IN GLOBAL CONFIG AND INITIALIZED VIA CLI.***
 
 **HTTP Probing**
-httpx-toolkit
-ffuf
-gowitness
-byp4xx
+  httpx-toolkit
+  ffuf
+  gowitness
+  byp4xx
 
 **URL and Parameter Discovery**
-gau
-katana
-uro
-paramspider
-x8
+  gau
+  katana
+  uro
+  paramspider
+  x8
 
 **JS Analysis**
-getJS
-linkfinder.py
+  getJS
+  linkfinder.py
 
 **Secrets and Scanning**
-trufflehog
-nuclei
-s3scanner
-cloud_enum.py
-corsy.py
+  trufflehog
+  nuclei
+  s3scanner
+  cloud_enum.py
+  corsy.py
 
 **Exploit**
-dalfox
+  dalfox
 
 **Wordlists**
-DNS bruteforce
-Directories / x8
+  DNS bruteforce
+  Directories / x8
 
 **VHOST Fuzzing**
-seclists
+  seclists
 
 
 
