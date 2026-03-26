@@ -101,8 +101,7 @@ Summary: Automated stats and Obsidian-linked notes.
 
 
 # Installation
-Bash
-# Clone the repository
+## Clone the repository
 `git clone https://github.com/mf-pro-repo/BugBounty-Writeups.git`
 `cd BugBounty-Writeups`
 
