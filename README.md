@@ -36,6 +36,7 @@ Directories are all configurable in foxhunt.sh
 
 FOXHUNT v5.0 -- bug bounty recon shell
 
+```paintext
 Workflow:
   set program <name>              create/open a program
   set scope <domains|file>        set scope (CSV, newline, or .txt file)
@@ -77,6 +78,7 @@ No-program mode:
   set target example.com
   run
   Output goes to: ~/Projects/Bounties/no-program/<target>
+```
 
 
 
