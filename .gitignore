@@ -1,0 +1,17 @@
+# --- FoxHunt Protection ---
+.program_config
+.recon_config
+.foxhunt_session
+.checkpoint
+.lock
+data/
+Bounties/
+Programs/
+no-program/
+tools/
+.obsidian/
+.DS_Store
+Thumbs.db
+*.key
+*.pem
+*.env
