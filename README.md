@@ -126,7 +126,7 @@ Please note in the above example, I hadn't set the alias.
 
 
 Once inside the Foxhunt shell, use the following workflow:
-Please ensure all dependancies are installed/configured, it'll run without them, but it defeats the purpose
+Please ensure all dependencies are installed/configured, it'll run without them, but it defeats the purpose
 
 This can be verified with `Foxhunt > check`
 
@@ -153,13 +153,11 @@ Commands
 
 ## Notes:
 
-Please make sure you verify your programs guidelines as it pertains to scope, rate limit, headers, and 
-
-automated scanning (nmap, nuclei)
+Please verify your program's rules of engagement regarding scope, rate limits, custom headers, and automated scanning tools (nmap, nuclei) before running.
 
 
 
-## Dependancies:
+## Dependencies:
 ```plaintext
 **Enumeration**
   subfinder  
