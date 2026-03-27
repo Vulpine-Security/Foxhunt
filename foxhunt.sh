@@ -1,6 +1,6 @@
 #!/bin/bash
 # ==============================================================================
-# FOXHUNT v5.0
+# FOXHUNT v1.0.0
 # Copyright (c) 2026 NullFox
 #
 # Licensed under the MIT License. 
@@ -2629,7 +2629,7 @@ except Exception:
 
 show_help() {
     echo ""
-    echo -e "${BOLD}FOXHUNT v5.0${RESET} -- bug bounty recon shell"
+    echo -e "${BOLD}FOXHUNT v1.0.0${RESET} -- bug bounty recon shell"
     echo ""
     echo -e "${BOLD}Workflow:${RESET}"
     echo "  set program <name>              create/open a program"
@@ -2738,7 +2738,7 @@ fi
 
 echo ""
 echo -e "${BOLD}${CYAN}╔══════════════════════════════════════╗${RESET}"
-echo -e "${BOLD}${CYAN}║  FOXHUNT v5.0  bug bounty recon      ║${RESET}"
+echo -e "${BOLD}${CYAN}║  FOXHUNT v1.0.0  bug bounty recon      ║${RESET}"
 echo -e "${BOLD}${CYAN}╚══════════════════════════════════════╝${RESET}"
 echo ""
 
