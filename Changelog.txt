@@ -6,3 +6,4 @@
 * **State Management:** Added a checkpoint system so the pipeline can resume after a crash/Ctrl+C.
 * **Obsidian Integration:** Automated the conversion of raw tool output into structured Markdown notes.
 * **Refined Pipeline:** Orchestrated 24 separate stages for a more tactical workflow.
+* **Please Note:** This was public release 1.0.0 but internal 5.0, if you find any "5.0" references, let me know and I'll get them fixed.
