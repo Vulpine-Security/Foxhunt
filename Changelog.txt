@@ -1,0 +1,8 @@
+# Changelog
+
+### [Public v1.0.0] - 2026-03-27
+* **Major Overhaul:** Rebuilt the entire framework into a dedicated interactive shell.
+* **Tiered Config:** Implemented the Global > Program > Target hierarchy to stop setting flags manually.
+* **State Management:** Added a checkpoint system so the pipeline can resume after a crash/Ctrl+C.
+* **Obsidian Integration:** Automated the conversion of raw tool output into structured Markdown notes.
+* **Refined Pipeline:** Orchestrated 24 separate stages for a more tactical workflow.
