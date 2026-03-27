@@ -1,7 +1,7 @@
- # FoxHunt v1.0.0
+ # Foxhunt v1.0.0
 The Interactive Orchestration Layer for Modern Bug Bounty Recon.
 
-FoxHunt is a sophisticated Bash-based reconnaissance framework designed to bridge the gap between manual one-liners and heavy, inflexible automation suites. It provides a custom interactive shell environment to manage programs, targets, and scope with persistent state.
+Foxhunt is a sophisticated Bash-based reconnaissance framework designed to bridge the gap between manual one-liners and heavy, inflexible automation suites. It provides a custom interactive shell environment to manage programs, targets, and scope with persistent state.
 
 
 ## Core Features
@@ -20,19 +20,19 @@ FoxHunt is a sophisticated Bash-based reconnaissance framework designed to bridg
 ## Config Options
 Foxhunt includes many configurable options, allowing you to customize your methodology per-program or overall.
 
-foxhunt's global config is located at `~/.recon_config`    
+Foxhunt's global config is located at `~/.recon_config`    
 
-session file is at `"~/.foxhunt_session"`  
+session file is at `"~/.Foxhunt_session"`  
 
 program config file is at `~/Projects/Bounties/[program]`  
 
-Directories are all configurable in foxhunt.sh
+Directories are all configurable in Foxhunt.sh
 
 
 
 ## Commands
 
-FOXHUNT v1.0.0 -- bug bounty recon shell
+Foxhunt v1.0.0 -- bug bounty recon shell
 
 ```plaintext
 Workflow:
@@ -70,7 +70,7 @@ Info:
   programs                        list all programs
   check                           verify toolchain
   help                            this screen
-  exit / quit                     leave foxhunt
+  exit / quit                     leave Foxhunt
 
 No-program mode:
   set target example.com
@@ -82,7 +82,7 @@ No-program mode:
 
 
 ## The Pipeline
-FoxHunt orchestrates industry-standard tools into a unified stream:
+Foxhunt orchestrates industry-standard tools into a unified stream:
 
 **Passive Discovery:** subfinder, assetfinder, github-subdomains, amass.
 
@@ -107,35 +107,35 @@ FoxHunt orchestrates industry-standard tools into a unified stream:
 
 
 
-## Run FoxHunt
+## Run Foxhunt
 
 First, run:
 
-`chmod +x foxhunt.sh && CONF_FILE=$([[ "$SHELL" =~ "zsh" ]] && echo "$HOME/.zshrc" || echo "$HOME/.bashrc"); echo "alias foxhunt='$(readlink -f foxhunt.sh)'" >> "$CONF_FILE" && source "$CONF_FILE"`
+`chmod +x Foxhunt.sh && CONF_FILE=$([[ "$SHELL" =~ "zsh" ]] && echo "$HOME/.zshrc" || echo "$HOME/.bashrc"); echo "alias Foxhunt='$(readlink -f Foxhunt.sh)'" >> "$CONF_FILE" && source "$CONF_FILE"`
 
 
-Then it'll just respond to foxhunt
+Then it'll just respond to Foxhunt
 
 Usage:
 
-`$> foxhunt`
+`$> Foxhunt`
 
 ![WindowsTerminal_WvDp7Frb5V](https://github.com/user-attachments/assets/8f839782-35da-4ee2-8e52-fb94af5033b0)
 
 Please note in the above example, I hadn't set the alias.
 
 
-Once inside the FoxHunt shell, use the following workflow:
+Once inside the Foxhunt shell, use the following workflow:
 Please ensure all dependancies are installed/configured, it'll run without them, but it defeats the purpose
 
-This can be verified with `foxhunt > check`
+This can be verified with `Foxhunt > check`
 
 ```Plaintext
-[foxhunt]> set program ExampleCorp
-[foxhunt:ExampleCorp]> set scope [scope.txt]  ## Right now this must be manually created, a simple .txt file with one in-scope target per line works or just type in the domain and it'll be added to scope.
-[foxhunt:ExampleCorp]> verify scope
-[foxhunt:ExampleCorp]> set target [api.example.com]
-[foxhunt:ExampleCorp:api.example.com]> run
+[Foxhunt]> set program ExampleCorp
+[Foxhunt:ExampleCorp]> set scope [scope.txt]  ## Right now this must be manually created, a simple .txt file with one in-scope target per line works or just type in the domain and it'll be added to scope.
+[Foxhunt:ExampleCorp]> verify scope
+[Foxhunt:ExampleCorp]> set target [api.example.com]
+[Foxhunt:ExampleCorp:api.example.com]> run
 ```
 
 Commands
@@ -238,7 +238,7 @@ Please keep in mind: I am one guy, probably scripting in bed at 3am. I'm not a m
 ### Troubleshooting "Zero Results"
 If some of your stages come up empty, read this before yelling at me.
 1. **Check the Basics:** Verify your DNS, check for a WAF, and run a manual `curl`.
-2. **Understand the Tooling:** Some tools (like Nuclei) are very precise. Most security teams run these same tools—if the "low hanging fruit" is already patched, you won't see an output. That's totally normal.
+2. **Understand the Tooling:** Some tools (like Nuclei) are very precise. Most security teams run these same tools, if the "low hanging fruit" is already patched, you won't see an output. That's totally normal.
 3. **Check API:** Some of these tools require an API set in global config. If you don't have them, nothing will show up.
 
 ## License
