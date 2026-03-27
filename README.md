@@ -1,4 +1,4 @@
-🦊 
+![WindowsTerminal_WvDp7Frb5V](https://github.com/user-attachments/assets/45931939-eb6f-4392-89cf-2f562deff06a)🦊 
 # FoxHunt v5.0
 The Interactive Orchestration Layer for Modern Bug Bounty Recon.
 
@@ -102,8 +102,10 @@ Summary: Automated stats and Obsidian-linked notes.
 
 # Installation
 ## Clone the repository
-`git clone https://github.com/mf-pro-repo/BugBounty-Writeups.git`
-`cd BugBounty-Writeups`
+`git clone https://github.com/mf-pro-repo/Foxhunt.git`
+`cd Foxhunt`
+
+
 
 
 
@@ -119,6 +121,11 @@ Then it'll just respond to foxhunt
 Usage:
 
 `$> foxhunt`
+
+![WindowsTerminal_WvDp7Frb5V](https://github.com/user-attachments/assets/8f839782-35da-4ee2-8e52-fb94af5033b0)
+
+Please note in the above example, I hadn't set the alias.
+
 
 Once inside the FoxHunt shell, use the following workflow:
 Please ensure all dependancies are installed/configured, it'll run without them, but it defeats the purpose
