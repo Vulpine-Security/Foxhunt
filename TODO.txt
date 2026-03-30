@@ -9,7 +9,7 @@ ADJUST: variable fed directories in foxhunt.sh to be less chaotic, especially wi
 
 ADJUST/VERIFY: All files, I'm so bad at formatting and I want them to be pretty. - 03/27/26
 
-ADJUST: README.md for clarity and cohesion.
+ADJUST: README.md for clarity and cohesion. - 03/30/26
 
 CHECK: ASNMAP Logic for errors??? It might have errors if no API key is initialized. - 03/27/26
 
