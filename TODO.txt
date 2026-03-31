@@ -19,4 +19,6 @@ ADJUST: Obsidian output logic, particularly in subdomains. The output is VERY di
 
 ADD: Recursive mode?
 
+ADD: Progress bar/status thing so you can see if it hangs. - 03/31/2026
+
 REBASE: Maybe Go? C++? Python? INTERCAL? - 03/30/26
