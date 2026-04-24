@@ -1,10 +1,12 @@
-# ADD  
+# NONE OF THIS MATTERS BECAUSE V2 IS COMING
+
+## ADD  
 ADD: setup.sh - to make installation easier - 03/27/26  
 
-# REMOVE  
+## REMOVE  
 N/A - yet
 
-# CHANGE  
+## CHANGE  
 ADJUST: variable fed directories in foxhunt.sh to be less chaotic, especially with the config files. - 03/27/26
 
 ADJUST/VERIFY: All files, I'm so bad at formatting and I want them to be pretty. - 03/27/26
@@ -15,7 +17,7 @@ CHECK: ASNMAP Logic for errors??? It might have errors if no API key is initiali
 
 ADJUST: Obsidian output logic, particularly in subdomains. The output is VERY difficult to read.... - 03/27/26
 
-# Ideas
+## Ideas
 
 ADD: Recursive mode?
 
