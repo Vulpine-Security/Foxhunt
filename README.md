@@ -1,6 +1,7 @@
- # DEV NOTE: 4/26/2026 - foxhunt V2 in private alpha testing. For access see Alpha-Access-Request.md
+ # DEV NOTE: 4/26/2026 - foxhunt V2 in private alpha testing.
+ ## For access, submit an issue request and I will get back to you.
  
- I found a lot of bugs in the bash script and it's honestly so broken it's a wonder I even got any solid results from it in the first place. Instead of debugging every single line of an already overbloated bash script. I'm just going forward with the Go rebase. With a SLEW of new features! It's going to be a complete re-write, restructure, and upgrade from V1. So stay tuned!  
+I found a lot of bugs in the bash script and it's honestly so broken it's a wonder I even got any solid results from it in the first place. Instead of debugging every single line of an already overbloated bash script. I'm just going forward with the Go rebase. With a SLEW of new features! It's going to be a complete re-write, restructure, and upgrade from V1. So stay tuned!  
  
  # Foxhunt v1.0.0
 The Interactive Orchestration Layer for Modern Bug Bounty Recon.
